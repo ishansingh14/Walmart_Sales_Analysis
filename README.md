@@ -4,7 +4,7 @@ This project provides an end-to-end data engineering and business intelligence s
 
 ## Data Pipeline Diagram
 
-![Walmart Sales Analysis Data Pipeline Flowchart](walmart_pipeline.png)
+![Walmart Sales Analysis Data Pipeline Flowchart](walmart_pipeline_1.png)
 
 The flowchart above outlines the four stages of the project:
 1. **Data Source**: Loading the transactional sales records from the raw CSV dataset.
