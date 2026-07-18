@@ -1,4 +1,4 @@
-# Walmart Sales Analysis: PostgreSQL and Streamlit BI Portal
+# Walmart Sales Analysis: PostgreSQL 
 
 This project provides an end-to-end data engineering and business intelligence solution for analyzing Walmart transactional sales data. It includes data cleaning via Python (Pandas), schema setup and database loading on a local PostgreSQL database server, execution of 9 core business problem SQL statements, and a premium dark-themed Streamlit Business Intelligence dashboard.
 
