@@ -207,20 +207,14 @@ Follow these steps to run the analysis pipeline and launch the Streamlit dashboa
 ### 1. Prerequisite Installations
 Ensure Python 3.8+ and a local PostgreSQL database server are installed and running.
 
-### 2. Clone the Repository
-Clone the repository to your local drive:
-```bash
-git clone https://github.com/kapish19/Walmart_Sales_Analysis.git
-cd Walmart_Sales_Analysis
-```
 
-### 3. Install Python Dependencies
+### 2. Install Python Dependencies
 Install the required packages using pip:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Setup and Populate PostgreSQL
+### 3. Setup and Populate PostgreSQL
 Make sure your PostgreSQL server is active. Update the database URL parameters in the scripts if your host, user, or password differ from default configurations:
 * Default Database User: `postgres`
 * Default Password: `x0000`
@@ -231,7 +225,7 @@ Run the python compiler pipeline to clean the raw data, establish tables, and ex
 python run_postgres.py
 ```
 
-### 5. Launch the Streamlit Dashboard
+### 4. Launch the Streamlit Dashboard
 Start the Streamlit analytical dashboard server:
 ```bash
 streamlit run dashboard.py
